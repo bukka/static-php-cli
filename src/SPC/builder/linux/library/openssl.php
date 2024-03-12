@@ -67,7 +67,7 @@ class openssl extends LinuxLibraryBase
                 "{$env} ./Configure no-shared {$extra} " .
                 '--prefix=/ ' .
                 '--libdir=lib ' .
-                '-static ' .
+                '-g -static ' .
                 "{$zlib_extra}" .
                 'no-legacy ' .
                 "linux-{$this->builder->getOption('arch')}{$clang_postfix}"
