@@ -487,9 +487,8 @@
         }
     },
     "openssl": {
-        "type": "filelist",
-        "url": "https://www.openssl.org/source/",
-        "regex": "/href=\"(?<file>openssl-(?<version>[^\"]+)\\.tar\\.gz)\"/",
+        "type": "url",
+        "url": "https://www.openssl.org/source/openssl-3.0.13.tar.gz",
         "license": {
             "type": "file",
             "path": "LICENSE.txt"
